@@ -1,0 +1,24 @@
+[build-system]
+requires = ["poetry-core>=1.4.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "midas"
+version = "0.1.0"
+description = "MiDaS: Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer"
+documentation = "https://github.com/paulguerrero/MiDaS"
+repository = "https://github.com/paulguerrero/MiDaS"
+authors = [
+    "René Ranftl",
+    "Katrin Lasinger",
+    "David Hafner",
+    "Konrad Schindler",
+    "Vladlen Koltun",
+    ]
+
+[tool.poetry.dependencies]
+python = ">=3.9 , <3.11"
+torch = ">=2.0"
+numpy = ">=1.24.1"
+torchvision = ">=0.14.1"
+timm = "0.6.12"
